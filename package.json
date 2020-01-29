@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch src -e ejs,js src/index.js",
     "initdb": "node tools/initdb.js"
-
   },
   "repository": {
     "type": "git",
@@ -30,7 +29,10 @@
     "@hapi/vision": "^6.0.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
-    "postgres": "^1.0.2"
+    "express": "^4.17.1",
+    "hapi-version": "^2.1.1",
+    "postgres": "^1.0.2",
+    "server": "^1.0.22"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
